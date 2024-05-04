@@ -1,0 +1,17 @@
+{
+   "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "./build",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "lib": ["dom", "esnext"],
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+   } ,
+   "exclude": [
+      "node_modules"
+    ],
+ }
